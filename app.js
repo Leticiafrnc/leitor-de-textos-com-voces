@@ -6,9 +6,9 @@ const closeDivTextBox = document.querySelector('.close');
 const selectElement = document.querySelector('select');
 const textArea = document.querySelector('textarea');
 
-const humanExpressions = [
-    { img: './img/drink.jpg', text: 'Estou com sede' },
-    { img: './img/food.jpg', text: 'Estou com fome' },
+const humanExpressions = [ /* Array para inserir as imagens*/
+    { img: './img/drink.jpg', text: 'Estou com sede' }, /* Objeto com duas propriedade img e text que recebe as imagens*/ 
+    { img: './img/food.jpg', text: 'Estou com fome' }, /* Obs.: Os dados podem vir de uma API não precisam ser digitados a mão */
     { img: './img/tired.jpg', text: 'Estou cansado' },
     { img: './img/hurt.jpg', text: 'Estou machucado' },
     { img: './img/happy.jpg', text: 'Estou feliz' },
